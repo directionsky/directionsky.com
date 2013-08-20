@@ -1,0 +1,16 @@
+!!! 5
+%html
+  %head
+    %meta{ charset: 'utf-8' }
+    %meta{ name: 'HandheldFriendly', content: 'True' }
+    %meta{ name: 'MobileOptimized', content: '320' }
+    %meta{ name: 'viewport', content: 'initial-scale=1.0, width=device-width' }
+
+    %title Direction Sky
+
+    %link{ rel: 'stylesheet', href: '/style.css', type: 'text/css', media: 'all' }
+
+    = render '_ga'    
+
+  %body
+    = yield
